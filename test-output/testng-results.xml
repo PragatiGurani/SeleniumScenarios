@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T15:52:40 IST" name="Default suite" finished-at="2022-03-10T15:52:50 IST" duration-ms="9838">
+    <groups>
+    </groups>
+    <test started-at="2022-03-10T15:52:40 IST" name="Default test" finished-at="2022-03-10T15:52:50 IST" duration-ms="9838">
+      <class name="com.selenium.PDFReader">
+        <test-method signature="readerthroughExcel()[pri:0, instance:com.selenium.PDFReader@5ace1ed4]" started-at="2022-03-10T15:52:41 IST" name="readerthroughExcel" finished-at="2022-03-10T15:52:42 IST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readerthroughExcel -->
+        <test-method signature="reader()[pri:0, instance:com.selenium.PDFReader@5ace1ed4]" started-at="2022-03-10T15:52:42 IST" name="reader" finished-at="2022-03-10T15:52:50 IST" depends-on-methods="com.selenium.PDFReader.readerthroughExcel" duration-ms="8354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reader -->
+        <test-method signature="comparision_of_excel()[pri:0, instance:com.selenium.PDFReader@5ace1ed4]" started-at="2022-03-10T15:52:50 IST" name="comparision_of_excel" finished-at="2022-03-10T15:52:50 IST" depends-on-methods="com.selenium.PDFReader.reader" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparision_of_excel -->
+      </class> <!-- com.selenium.PDFReader -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
